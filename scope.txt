@@ -1,0 +1,8 @@
+script/Deployer.s.sol
+script/EmergencyMigration.s.sol
+src/CrimeMoney.sol
+src/modules/MoneyShelf.sol
+src/modules/MoneyVault.sol
+src/modules/Shelf.sol
+src/modules/WeaponShelf.sol
+src/policies/Laundrette.sol
