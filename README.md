@@ -120,8 +120,8 @@ A stablecoin pegged to USDC deposited in MoneyShelf.
 ## Installation
 
 ```bash
-git clone
-cd <MY_REPO>
+git clone https://github.com/Cyfrin/2024-05-mafia-take-down
+cd 2024-05-mafia-take-down
 make
 ```
 
