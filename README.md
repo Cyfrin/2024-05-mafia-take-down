@@ -65,7 +65,7 @@ _This project uses the Default framework: https://github.com/fullyallocated/Defa
 
 Policies are external-facing contracts that receive inbound calls to the protocol, and route all the necessary updates to data models via Modules. Access control and input validation are performed in these contracts.
 
-### Laundrette
+### Laundrette
 
 The AMA intervention will be held in a Laundrette, the headquarters of the mafia. It seems they named the interface contract the same as their shell company.
 
