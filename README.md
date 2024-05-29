@@ -8,6 +8,13 @@ Mafia Take Down
 
 # Contest Details
 
+_A special thanks to n0kto for contributing this Community First Flight!_
+
+Learn more about n0kto!
+- [GitHub](https://github.com/n0kto)
+- [Twitter](https://x.com/n0kto)
+- [LinkedIn](https://www.linkedin.com/in/axel-leloup-659a15155/)
+
 ### Prize Pool
 
 - High - 100xp
