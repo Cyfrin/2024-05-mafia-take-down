@@ -111,8 +111,8 @@ A stablecoin pegged to USDC deposited in MoneyShelf.
 
 ## Scripts
 
-- `Deploy.t.sol` deploys the whole protocol.
-- `EmergencyMigration.t.sol` migrates MoneyShelf to MoneyVault in case of an emergency.
+- `Deploy.s.sol` deploys the whole protocol.
+- `EmergencyMigration.s.sol` migrates MoneyShelf to MoneyVault in case of an emergency.
 
 # Getting Started
 
