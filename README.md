@@ -1,10 +1,31 @@
----
-Mafia Take Down
----
 
-<p align="center">
-<img src="https://res.cloudinary.com/droqoz7lg/image/upload/q_90/dpr_2.0/c_fill,g_auto,h_320,w_320/f_auto/v1/company/flux6ajgmoovmcpzh9mc?_a=BATAUVAA0" width="500" alt="gas-vs-1.png">
-<br/>
+# Mafia Take Down
+
+# Table of Contents
+
+- [Contest Details](#contest-details)
+    - [Prize Pool](#prize-pool)
+    - [Stats](#stats)
+    - [Disclaimer](#disclaimer)
+- [Table of Contents](#table-of-contents)
+- [About](#about)
+  - [Policies](#policies)
+  - [Modules](#modules)
+    - [WeaponShelf](#weaponshelf)
+    - [MoneyShelf](#moneyshelf)
+    - [MoneyVault](#moneyvault)
+  - [CrimeMoney](#crimemoney)
+  - [Scripts](#scripts)
+- [Getting Started](#getting-started)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [Quickstart](#quickstart)
+- [Audit Scope Details](#audit-scope-details)
+  - [Compatibilities](#compatibilities)
+  - [Roles](#roles)
+  - [Known Issues](#known-issues)
+
+[//]: # (contest-details-open)
 
 # Contest Details
 
@@ -33,30 +54,6 @@ Learn more about n0kto!
 
 _This code was created for Codehawks as the first flight. It is made with bugs and flaws on purpose._
 _Don't use any part of this code without reviewing it and audit it._
-
-# Table of Contents
-
-- [Contest Details](#contest-details)
-    - [Prize Pool](#prize-pool)
-    - [Stats](#stats)
-    - [Disclaimer](#disclaimer)
-- [Table of Contents](#table-of-contents)
-- [About](#about)
-  - [Policies](#policies)
-  - [Modules](#modules)
-    - [WeaponShelf](#weaponshelf)
-    - [MoneyShelf](#moneyshelf)
-    - [MoneyVault](#moneyvault)
-  - [CrimeMoney](#crimemoney)
-  - [Scripts](#scripts)
-- [Getting Started](#getting-started)
-  - [Requirements](#requirements)
-  - [Installation](#installation)
-  - [Quickstart](#quickstart)
-- [Audit Scope Details](#audit-scope-details)
-  - [Compatibilities](#compatibilities)
-  - [Roles](#roles)
-  - [Known Issues](#known-issues)
 
 # About
 
@@ -114,6 +111,19 @@ A stablecoin pegged to USDC deposited in MoneyShelf.
 - `Deploy.s.sol` deploys the whole protocol.
 - `EmergencyMigration.s.sol` migrates MoneyShelf to MoneyVault in case of an emergency.
 
+## Roles
+
+- GodFather: Owner, has all the rights.
+- GangMember:
+  - Deposit USDC and withdraw USDC in exchange for CrimeMoney
+  - Transfer CrimeMoney between members and godfather.
+  - Take weapons that GodFather assigned to the member.
+- External users: can only call view functions and deposit USDC.
+
+[//]: # (contest-details-close)
+
+[//]: # (getting-started-open)
+
 # Getting Started
 
 ## Requirements
@@ -137,6 +147,10 @@ make
 ```bash
 make test
 ```
+
+[//]: # (getting-started-close)
+
+[//]: # (scope-open)
 
 # Audit Scope Details
 
@@ -167,17 +181,14 @@ make test
   - USDC
   - CrimeMoney
 
-## Roles
+[//]: # (scope-close)
 
-- GodFather: Owner, has all the rights.
-- GangMember:
-  - Deposit USDC and withdraw USDC in exchange for CrimeMoney
-  - Transfer CrimeMoney between members and godfather.
-  - Take weapons that GodFather assigned to the member.
-- External users: can only call view functions and deposit USDC.
+[//]: # (known-issues-open)
 
 ## Known Issues
 
 - Missing events.
 - The Mafia knows that nothing is private on blockchains, view functions will reveal what the mafia owns.
 - Users can deposit on any account, not only gang member's accounts.
+
+[//]: # (known-issues-close)
