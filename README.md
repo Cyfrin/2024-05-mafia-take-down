@@ -25,16 +25,7 @@
   - [Roles](#roles)
   - [Known Issues](#known-issues)
 
-[//]: # (contest-details-open)
-
 # Contest Details
-
-_A special thanks to n0kto for contributing this Community First Flight!_
-
-Learn more about n0kto!
-- [GitHub](https://github.com/n0kto)
-- [Twitter](https://x.com/n0kto)
-- [LinkedIn](https://www.linkedin.com/in/axel-leloup-659a15155/)
 
 ### Prize Pool
 
@@ -49,6 +40,15 @@ Learn more about n0kto!
 
 - nSLOC: 205
 - Complexity Scope: 284
+
+[//]: # (contest-details-open)
+
+_A special thanks to n0kto for contributing this Community First Flight!_
+
+Learn more about n0kto!
+- [GitHub](https://github.com/n0kto)
+- [Twitter](https://x.com/n0kto)
+- [LinkedIn](https://www.linkedin.com/in/axel-leloup-659a15155/)
 
 ### Disclaimer
 
